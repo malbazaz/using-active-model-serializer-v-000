@@ -11,7 +11,7 @@ class PostsController < ApplicationController
       # render json: @post, status: 200
        # Used the following code because, I needed to render the thing as per the specs:
       respond_to do |format|
-  format.html { render :show }
+  format.html
   format.json { render json: @post}
 end
   end
